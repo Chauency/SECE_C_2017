@@ -1,0 +1,13 @@
+##期中复习题2的参考答案
+### 2.1 Finding the character of an ASCII code
+代码高亮
+``` c
+#include<stdio.h>
+int main()
+{
+    int ival;
+    scanf("%d", &ival);
+    printf("%c\n", (char)ival);
+    return 0;
+}
+```
